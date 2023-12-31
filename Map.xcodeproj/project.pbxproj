@@ -11,6 +11,7 @@
 		A84796AA2B412A1C0035B227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84796A92B412A1C0035B227 /* ContentView.swift */; };
 		A84796AC2B412A1E0035B227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84796AB2B412A1E0035B227 /* Assets.xcassets */; };
 		A84796B02B412A1E0035B227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84796AF2B412A1E0035B227 /* Preview Assets.xcassets */; };
+		A84796B72B412A660035B227 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84796B62B412A660035B227 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A84796AB2B412A1E0035B227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84796AD2B412A1E0035B227 /* Map.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Map.entitlements; sourceTree = "<group>"; };
 		A84796AF2B412A1E0035B227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A84796B62B412A660035B227 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A84796A72B412A1C0035B227 /* MapApp.swift */,
 				A84796A92B412A1C0035B227 /* ContentView.swift */,
+				A84796B62B412A660035B227 /* MapView.swift */,
 				A84796AB2B412A1E0035B227 /* Assets.xcassets */,
 				A84796AD2B412A1E0035B227 /* Map.entitlements */,
 				A84796AE2B412A1E0035B227 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84796AA2B412A1C0035B227 /* ContentView.swift in Sources */,
+				A84796B72B412A660035B227 /* MapView.swift in Sources */,
 				A84796A82B412A1C0035B227 /* MapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
